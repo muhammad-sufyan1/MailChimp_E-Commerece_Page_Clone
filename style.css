@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topLine{
+    width: 100%;
+    height: 1px;
+    background-color: #71706f;
+    margin-top: 30px;
+}
+.bottomLine{
+    width: 100%;
+    height: 1px;
+    background-color: #71706f;
+    margin-top: 5px;
+}
+
+/* -------------------------------- Marketing Library Section ------------------ */
+.marketingSection{
+    display: flex;
+    padding: 10px 100px  20px 550px;
+}
+.line{
+    height: 50px;
+    margin-top: 15px;
+    /* margin: 10px; */
+}
+.MarketingLibrary{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.MarketingHeading{
+    color: black;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    
+    
+}
+.ExploreTopics{
+    margin-top: 12px;
+    padding: 10px;
+    
+}
+
+#ExploreTopics{
+    border: none;
+    color: rgb(0, 78, 86);
+    font-size: 20px;
+}
+
+/* -------------------------------- Marketing Library Section END ------------------------------ */
+
+
+/* -------------------------------------- E-commerce section  ------------------------ */
+.e-commerce{
+    text-align: center;
+    padding-top: 50px;
+}
+.e-commerceHeading{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    color: rgb(36,28,21);
+}
+.e-commercePara{
+    color: rgb(36,28,21);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+
+/* -------------------------------------- E-commerce section END ------------------------ */
+
+/* ------------------------------ Product Advice------------------------------ */
+.ProductAdviceSection{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #F6F6F4;
+    display: flex;
+}
+.productContent{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.topHeading{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.mainHeading{
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.productPara{
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.productBtn{
+    padding: 15px 35px 15px 35px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.productBtn:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #FFE01B;
+}
+
+
+/* -------------------------------------- E-CommerceTopicsContainer --------------- */
+.E-CommerceTopicsMainContainer{
+    width: 80%;
+    margin-left: 150px;
+}
+
+.E-CommerceTopicsLinks{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.topicsHeading1{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.topicsHeading2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.RetailHeading{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    color: rgb(0, 78, 86);
+}
+.RetailHeading:hover{
+    color: rgb(0, 32, 35);
+    cursor: pointer;
+    
+}
+
+/* ------------------ E-Commerce Automations -------------- */
+.AutomationsHeading{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-top: 150px;
+}
+.AutomationsHeading:hover{
+    color: rgb(0, 78, 86) ;
+    cursor: pointer;
+}
+
+/* ---------- CaseStudy---- */
+.CaseStudy{
+    display: flex;
+    margin-top: 10px;
+}
+
+.CaseStudyContent{
+    padding: 150px 50px 50px 20px;
+}
+.CaseStudyHeading1{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.CaseStudyHeading2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.CaseStudyPara{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* ---------------------- AutomationsCards -------------- */
+.AutomationsCards{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.cardsHeading1{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.cardsHeading2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.cardsPara{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* ----------------------------------------------- Subscribe -------------------- */
+.Subscribe{
+    width: 100%;
+    background-color: #241C15;
+    margin-top: 100px;
+}
+
+.SubscribeContent{
+    height: 600px;
+    width: 1200px;
+
+}
+.SubscribeHeading{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.SubscribeForm{
+    margin-left: 200px;
+    margin-top: 80px;
+    
+}
+.Subscribelabel{
+    color: white;
+    padding-top: 100px;
+    
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.SubscribeInput{
+    padding: 15px 800px 15px 10px;
+    border-radius: 5px;
+}
+.btn{
+    text-align: center;
+}
+.subscribeBtn{
+    padding: 15px 35px 15px 35px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: #FFE01B;
+    margin: 50px;
+}
+.subscribeBtn:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgb(255, 255, 255);
+}
+
+.subscribePara{
+    text-align: center;
+    padding-left: 220px;
+    color: white;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+/* ------------------------------ Success Stories ------------------------------ */
+.SuccessStoriesSection{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #E8F1FA;
+    display: flex;
+    padding: 100px;
+}
+.SuccessStoriesContent{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.SuccessStoriestopHeading{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.SuccessStoriesmainHeading{
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.SuccessStoriesproductPara{
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.SuccessStoriesBtn{
+    padding: 15px 35px 15px 35px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.SuccessStoriesBtn:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #FFE01B;
+}
+
+
+.RetailmarketingContainer{
+    width: 80%;
+    margin-left: 150px;
+
+}
+
+
+/* ------------------------------- Footer --------------------------- */
+
+.footerContainer{
+    margin-top: 150px;
+    width: 100%;
+    height: 1200px;
+    background-color: #E7B75F;
+}
+
+.RelatedLinks{
+    padding-top: 50px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.linksLabel{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.linksTag{
+    margin: 50px 30px 0 20px;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.megaMenu{
+    display: flex;
+}
+.sectionHeading{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.ProductsSection{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.ResourcesSection{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.CommunitySection{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.CompanySection{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.HelpSection{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.logoSection{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.megaMenuLinks{
+    color: black;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.logoPara{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+.logoBtn{
+    margin-top: 10px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    border: none;
+}
+
+.footerSVG{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+}
+.footerSocail{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 50px;
+}
+
+.footerSearch{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.languagesSearch{
+    padding: 10px 60px 10px 60px;
+    border: 1px solid black;
+    background-color: #ffffff00;
+}
+.footerPara{
+    font-size: 12px;
+}
+.footerLinks a{
+    font-size: 10px;
+    color: black;
+    font-weight: 600;
+    
+}
+.footerLinks{
+    margin-left: 450px;
+    gap: 17px;
+}
+
+/* Media Queries */
+
+/* Small Devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .marketingSection {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ProductAdviceSection, .SuccessStoriesSection {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .productContent, .SuccessStoriesContent {
+        margin: 0;
+    }
+    .SubscribeContent {
+        width: 100%;
+        height: auto;
+    }
+    .SubscribeForm {
+        margin: 20px auto;
+        margin-left: 0;
+    }
+    .SubscribeInput {
+        padding: 15px;
+        width: calc(100% - 30px);
+    }
+    .footerContainer {
+        height: auto;
+        padding: 20px;
+    }
+    .RelatedLinks, .megaMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .linksLabel, .ProductsSection, .ResourcesSection, .CommunitySection, .CompanySection, .HelpSection {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .footerLinks {
+        margin-left: 0;
+        text-align: center;
+    }
+    .languagesSearch {
+        padding: 10px 30px;
+    }
+}
+
+/* Medium Devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    .marketingSection {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ProductAdviceSection, .SuccessStoriesSection {
+        padding: 40px;
+    }
+    .SubscribeContent {
+        width: 100%;
+        height: auto;
+    }
+    .SubscribeForm {
+        margin: 20px auto;
+        margin-left: 0;
+    }
+    .SubscribeInput {
+        padding: 15px;
+        width: calc(100% - 30px);
+    }
+    .footerContainer {
+        height: auto;
+        padding: 20px;
+    }
+    .RelatedLinks, .megaMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .linksLabel, .ProductsSection, .ResourcesSection, .CommunitySection, .CompanySection, .HelpSection {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .footerLinks {
+        margin-left: 0;
+        text-align: center;
+    }
+    .languagesSearch {
+        padding: 10px 30px;
+    }
+}
+
+/* Large Devices (desktops, 1025px and up) */
+/* @media (min-width: 1025px) {
+    .marketingSection {
+        padding: 10px 100px 20px 550px;
+    }
+    .ProductAdviceSection, .SuccessStoriesSection {
+        padding: 100px;
+    }
+    .SubscribeContent {
+        width: 1200px;
+    }
+    .footerContainer {
+        height: 1200px;
+    }
+    .RelatedLinks, .megaMenu {
+        flex-direction: row;
+    }
+    .footerLinks {
+        margin-left: 450px;
+    }
+} */
