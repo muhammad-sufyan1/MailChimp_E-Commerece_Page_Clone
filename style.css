@@ -500,7 +500,7 @@
 }
 
 /* Medium Devices (tablets, 768px and up) */
-/* @media (min-width: 768px) and (max-width: 1024px) {
+ @media (min-width: 768px) and (max-width: 1024px) {
     .marketingSection {
         padding: 10px;
         flex-direction: column;
@@ -543,7 +543,7 @@
 }
 
 /* Large Devices (desktops, 1025px and up) */
-/* @media (min-width: 1025px) {
+@media (min-width: 1025px) {
     .marketingSection {
         padding: 10px 100px 20px 550px;
     }
@@ -562,4 +562,4 @@
     .footerLinks {
         margin-left: 450px;
     }
-} */
+} 
